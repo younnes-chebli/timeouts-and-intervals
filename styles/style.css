@@ -45,19 +45,15 @@ h1 {
     padding: 1rem;
 }
 
-#score {
-    margin-bottom: 3rem;
-}
-
-#score-number {
-
-}
-
 .mole {
     height: 5rem;
     width: 25%;
     border-radius: 100%;
     border-style: none;
+}
+
+#score {
+    margin-bottom: 3rem;
 }
 
 #score-number {
@@ -69,4 +65,20 @@ h1 {
 footer {
     margin-top: auto;
     border-top: 5px solid white;
+}
+
+@media screen and (min-width: 640px){
+    .mole {
+        width: 25%;
+        height: 10rem;
+    }
+
+    .button-container {
+        justify-content: space-around;
+    }
+
+    .button {
+        justify-self: initial;
+        margin-left: initial;
+    }
 }
