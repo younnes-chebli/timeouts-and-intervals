@@ -5,18 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Timeouts and Intervals</title>
 </head>
 <body>
     <h1>Timouts and Intervals</h1>
-
-    <div id="tipewriter-container">
+    <p id="seconds"></p>
+    <p id="minutes"></p>
+    <div class="button-container">
         <h2>Tipewriter</h2>
-        <button id="prout-launcher">Click me!</button>
+        <button class="button" id="prout-launcher">Click me!</button>
     </div>
-
     <p id="prout"></p>
-
+    <h2>Whack-a-mole</h2>
+    <div id="wack-a-mole-container">
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+        <button class="mole"></button>
+    </div>
+    <div class="button-container">
+        <p>Score : <span id="score-number">5</span></p>
+        <button class="button" id="reset-score-button">Reset score</button>
+    </div>
+    <footer>
+        <p><i class="fa-regular fa-copyright">  Younnes Chebli - 2022</i></p>
+    </footer>
     <script src="./scripts/script.js"></script>
 </body>
 </html>

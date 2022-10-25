@@ -13,17 +13,19 @@ body {
     background-color: #303030;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     text-align: center;
 }
 
-#tipewriter-container {
+.button-container {
     display: flex;
 }
 
-#prout-launcher {
+.button {
     justify-self: end;
     margin-left: auto;
     font-family: inherit;
@@ -32,4 +34,39 @@ h1 {
     height: fit-content;
     align-self: center;
     padding: 1rem;
+    border-style: none;
+}
+
+#wack-a-mole-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    width: 100%;
+    padding: 1rem;
+}
+
+#score {
+    margin-bottom: 3rem;
+}
+
+#score-number {
+
+}
+
+.mole {
+    height: 5rem;
+    width: 25%;
+    border-radius: 100%;
+    border-style: none;
+}
+
+#score-number {
+    font-size: 5rem;
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 5px solid white;
 }
